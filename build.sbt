@@ -12,7 +12,7 @@ lazy val jsmessages = project
   .settings(commonSettings: _*)
   .settings(
     name := "play-jsmessages",
-    crossScalaVersions := Seq("2.11.12", "2.12.8", "2.13.1"),
+    crossScalaVersions := Seq("2.12.10", "2.13.1"),
     libraryDependencies ++= Seq(
       component("play"),
       "org.scala-lang.modules" %% "scala-collection-compat" % "2.1.2"
