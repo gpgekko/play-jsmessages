@@ -50,7 +50,7 @@ lazy val jsmessages = project
 val sampleSettings = commonSettings ++ Seq(
   libraryDependencies ++= Seq(
     guice,
-    "com.typesafe.play" %% "play-ahc-ws-standalone" % "2.0.7" % Test,
+    "com.typesafe.play" %% "play-ahc-ws-standalone" % "2.1.2" % Test,
     "org.scalatestplus.play" %% "scalatestplus-play" % "4.0.3" % Test
   ),
   resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
