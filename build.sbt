@@ -24,11 +24,11 @@ lazy val jsmessages = project
       else Some("releases" at s"$nexus/service/local/staging/deploy/maven2")
     },
     pomExtra := (
-      <url>http://github.com/julienrf/play-jsmessages</url>
+      <url>https://github.com/julienrf/play-jsmessages</url>
       <licenses>
         <license>
           <name>MIT License</name>
-          <url>http://opensource.org/licenses/mit-license.php</url>
+          <url>https://opensource.org/licenses/mit-license.php</url>
         </license>
       </licenses>
       <scm>
@@ -53,7 +53,7 @@ val sampleSettings = commonSettings ++ Seq(
     "com.typesafe.play" %% "play-ahc-ws-standalone" % "2.0.7" % Test,
     "org.scalatestplus.play" %% "scalatestplus-play" % "4.0.3" % Test
   ),
-  resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
+  resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
 )
 
 lazy val sampleScala = Project("sample-scala", file("sample-scala"))
