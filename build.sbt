@@ -51,7 +51,7 @@ val sampleSettings = commonSettings ++ Seq(
   libraryDependencies ++= Seq(
     guice,
     "com.typesafe.play" %% "play-ahc-ws-standalone" % "2.1.2" % Test,
-    "org.scalatestplus.play" %% "scalatestplus-play" % "4.0.3" % Test
+    "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
   ),
   resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
 )
