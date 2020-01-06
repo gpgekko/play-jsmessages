@@ -63,7 +63,7 @@ lazy val sampleScala = Project("sample-scala", file("sample-scala"))
 
 lazy val sampleJava = Project("sample-java", file("sample-java"))
   .settings(sampleSettings: _*)
-  .enablePlugins(PlayJava)
+  .enablePlugins(PlayMinimalJava)
   .dependsOn(jsmessages)
 
 lazy val playJsmessages = project.in(file("."))
