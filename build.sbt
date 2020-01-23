@@ -15,7 +15,7 @@ lazy val jsmessages = project
     crossScalaVersions := Seq("2.12.10", "2.13.1"),
     libraryDependencies ++= Seq(
       component("play"),
-      "org.scala-lang.modules" %% "scala-collection-compat" % "2.1.2"
+      "org.scala-lang.modules" %% "scala-collection-compat" % "2.1.3"
     ),
     publishMavenStyle := true,
     publishTo := {
